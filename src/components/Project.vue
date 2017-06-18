@@ -52,13 +52,8 @@
 				this.error = this.post = null;
 				this.loading = true;
 				// replace getPost with your data fetching util / API wrapper
-				this.$http.get(`https://api.github.com/users/willyb321/repos?per_page=100&type=sources`).then(response => {
-					this.loading = false;
-					console.log(response);
-					this.post = response.data;
-				}, err => {
-					this.error = JSON.stringify(err)
-				});
+				this.post = require('../projects.json');
+				this.loading = false;
 			}
 		}
 	}
