@@ -11,3 +11,4 @@
 	}
 </script>
 <style lang="sass" src="./styles/styles.sass"></style>
+<style src="@/assets/fa/css/font-awesome.css"></style>
