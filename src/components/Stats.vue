@@ -33,6 +33,10 @@
 							<br>
 							<span class="tag">
 								<i class="fa fa-sticky-note" aria-hidden="true"> </i> {{ post.public_gists }} public gists</span>
+							<br>
+							<span class="tag">
+								<i class="fa fa-github" aria-hidden="true"> </i> {{ post.followers }} followers</span>
+							<br>
 						</div>
 					</div>
 				</div>
